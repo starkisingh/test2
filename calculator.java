@@ -6,7 +6,12 @@ class calculator {
         double r = a + b;
         System.out.println("\n result=" + r);
     }
-
+    
+    
+    static void multiply(double a, double b) {
+        double r = a * b;
+        System.out.println("\n result: " + r);
+    }
 
     public static void main(String[] args) {
         double a, b;
@@ -26,10 +31,10 @@ class calculator {
                 case 1:
                     add(a, b);
                     break;
-                // case 2:
+                case 2:
 
-                //     multiply(a, b);
-                //     break;
+                    multiply(a, b);
+                    break;
                 // case 3:
                 //     subtract(a, b);
                 //     break;
