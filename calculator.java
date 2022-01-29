@@ -15,7 +15,7 @@ class calculator {
 
     static void subtract(double a, double b) {
         double r = a - b;
-        System.out.println("\n result: " + r);
+        System.out.println("\n result after subtraction: " + r);
     }
 
     public static void main(String[] args) {
